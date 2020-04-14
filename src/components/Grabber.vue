@@ -128,6 +128,7 @@
 		height: calc(100vh - 140px);
 		max-height: 600px;
 		min-height: 200px;
+		width: 90%;
 
 		.upload-wrapper {
 			display: flex;
@@ -150,6 +151,7 @@
 				justify-content: center;
 				text-align: center;
 				font-size: 36px;
+				cursor: pointer;
 			}
 		}
 
@@ -159,6 +161,8 @@
 			justify-content: center;
 			align-items: center;
 			width: 100%;
+			max-width: 125vh;
+			margin: 0 auto;
 
 			.controls-wrapper {
 				width: 100%;
@@ -173,12 +177,11 @@
 
 		.video-wrapper {
 			position: relative;
-			height: 576px;
-			width: 1024px;
+			width: 100%;
+			max-width: 1024px;
 
 			video {
 				width: 100%;
-				height: 100%;
 
 				&::-webkit-media-controls-enclosure {
 					display: none !important;

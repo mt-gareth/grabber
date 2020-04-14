@@ -1,6 +1,7 @@
 <template>
 	<div id="app">
 		<Grabber/>
+		<div class="copyright">This App Brought To You By <a href="https://motiontactic.com">Motion Tactic</a></div>
 	</div>
 </template>
 
@@ -34,5 +35,15 @@
 		top:0;
 		overflow:hidden;
 		position:fixed;
+	}
+
+	.copyright {
+		position:absolute;
+		bottom:10px;
+		right:10px;
+	}
+
+	.copyright a {
+		color:#88A297;
 	}
 </style>
